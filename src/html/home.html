@@ -110,24 +110,26 @@
                 <div class="getintouch3">Get in touch</div>
             </div>
             <form class="submission">
-                <input class="name">Name</input>
-                <input class="email">Email</input>
-                <input class="subject">Subject</input>
-                <input class="company">Company</input>
-                <input class="message">Message</input>
+                <input required class="short-inp" name="name" type="text" placeholder="Name" onfocus="this.placeholder=''" onblur="this.placeholder='Name'"></input>
+                <input requied class="short-inp" name="email" type="email" placeholder="Email" onfocus="this.placeholder=''" onblur="this.placeholder='Email'"></input>
+                <input required class="short-inp" name="subject" type="text" placeholder="Subject" onfocus="this.placeholder=''" onblur="this.placeholder='Subject'"></input>
+                <input class="short-inp" name="company" type="text" placeholder="Company" onfocus="this.placeholder=''" onblur="this.placeholder='Company'"></input>
+                <textarea required class="message" name="message" type="text" placeholder="Message" onfocus="this.placeholder=''" onblur="this.placeholder='Message'"></textarea>
                 <button class="submit">Submit</button>
             </form>
-            <div class="contactme">
-                <div class="contactemail">loremipsum@gmail.com</div>
-                <div class="contactphn">+62 8123 2461 647</div>
-                <div class="contactaddr">Jakarta, Indonesia</div>
-            </div>
-            <div class="socials">
-                <i class="material-icons">instagram</i>
-                <i class="material-icons">facebook</i>
-                <i class="material-icons">github</i>
-                <i class="material-icons">linkedin</i>
-                <i class="material-icons">twitter</i>
+            <div class="connect-inf">
+                <div class="contactme">Contact me
+                    <div class="contactemail">loremipsum@gmail.com</div>
+                    <div class="contactphn">+62 8123 2461 647</div>
+                    <div class="contactaddr">Jakarta, Indonesia</div>
+                </div>
+                <div class="socials">Connect</br>
+                    <i class="material-icons">instagram</i>
+                    <i class="material-icons">facebook</i>
+                    <i class="material-icons">github</i>
+                    <i class="material-icons">linkedin</i>
+                    <i class="material-icons">twitter</i>
+                </div>
             </div>
         </div>
     </section>
